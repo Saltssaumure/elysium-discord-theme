@@ -1,21 +1,21 @@
 {
-  "id": "net.saltssaumure.Template",
-  "name": "Template",
-  "description": "A template theme for multiple client mod support.",
+  "id": "net.saltssaumure.Elysium",
+  "name": "Discord Elysium",
+  "description": "INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.",
   "author": {
     "name": "Saltssaumure",
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "1.1.1",
+  "version": "1.0.0",
   "updater": {
     "type": "store",
-    "id": "net.saltssaumure.Template"
+    "id": "net.saltssaumure.Elysium"
   },
   "license": "GPL-3.0",
   "type": "replugged-theme",
-  "main": "scss/temp.scss",
-  "source": "https://github.com/Saltssaumure/template-discord-theme",
+  "main": "scss/elysium.scss",
+  "source": "https://github.com/Saltssaumure/elysium-discord-theme",
   "image": [
     "https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"
   ]

@@ -1,6 +1,6 @@
-[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png
-[light]:            https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png
-[dark]:             https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png
+[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
+[light]:            https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
+[dark]:             https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
@@ -12,39 +12,39 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-bd-dl]:     https://img.shields.io/github/downloads/Saltssaumure/template-discord-theme/Template.theme.css?color=purple&label=Downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/Saltssaumure/template-discord-theme/net.saltssaumure.Template.asar?color=purple&label=Downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/Saltssaumure/template-discord-theme?label=Repository&style=flat-square "Total size"
+[shield-bd-dl]:     https://img.shields.io/github/downloads/Saltssaumure/elysium-discord-theme/Elysium.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/Saltssaumure/elysium-discord-theme/net.saltssaumure.Elysium.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/Saltssaumure/elysium-discord-theme?label=Repository&style=flat-square "Total size"
 
-[github]:           https://github.com/Saltssaumure/template-discord-theme
-[issues]:           https://github.com/Saltssaumure/template-discord-theme/issues
-[license]:          https://github.com/Saltssaumure/template-discord-theme/blob/main/LICENSE
-[.theme.css]:       https://github.com/Saltssaumure/template-discord-theme/blob/main/Template.theme.css
+[github]:           https://github.com/Saltssaumure/elysium-discord-theme
+[issues]:           https://github.com/Saltssaumure/elysium-discord-theme/issues
+[license]:          https://github.com/Saltssaumure/elysium-discord-theme/blob/main/LICENSE
+[.theme.css]:       https://github.com/Saltssaumure/elysium-discord-theme/blob/main/Elysium.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-rp]:       https://replugged.dev/store/net.saltssaumure.Template "Replugged store page"
-[release-bd-gh]:    https://github.com/Saltssaumure/template-discord-theme/releases/latest/download/Template.theme.css "Get latest release"
-[release-rp-gh]:    https://github.com/Saltssaumure/template-discord-theme/releases/latest/download/net.saltssaumure.Template.asar "Get latest release"
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.Elysium "Replugged store page"
+[release-bd-gh]:    https://github.com/Saltssaumure/elysium-discord-theme/releases/latest/download/Elysium.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/Saltssaumure/elysium-discord-theme/releases/latest/download/net.saltssaumure.Elysium.asar "Get latest release"
 
-# Template Discord Theme
+# Discord Elysium
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***A template Discord theme for multiple client mod support.***
+***INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.***
 
-![Screenshot of Template applied to Discord][screenshot]
+![Screenshot of Discord Elysium applied to Discord][screenshot]
 
 | Light mode                                                     | Dark mode                                                    |
 | -------------------------------------------------------------- | ------------------------------------------------------------ |
-| ![Screenshot of Template light mode applied to Discord][light] | ![Screenshot of Template dark mode applied to Discord][dark] |
+| ![Screenshot of Elysium light mode applied to Discord][light] | ![Screenshot of Elysium dark mode applied to Discord][dark] |
 
 ## Installation
 
 ### [BetterDiscord][BetterDiscord]
-1. Download `Template.theme.css`:
-    - [BetterDiscord store][release-bd]
+1. Download `Elysium.theme.css`:
+    <!-- - [BetterDiscord store][release-bd] -->
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
     - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
@@ -55,7 +55,7 @@
 1. Click to install:
     - [Replugged store][release-rp]
 #### Manual
-1. Download `net.saltssaumure.Template.asar`:
+1. Download `net.saltssaumure.Elysium.asar`:
     - [GitHub][release-rp-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
@@ -63,7 +63,7 @@
 
 ### [Vencord][Vencord]
 #### Local
-1. Download `Template.theme.css`:
+1. Download `Elysium.theme.css`:
     - [BetterDiscord store][release-bd]
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
@@ -71,7 +71,7 @@
 3. Click `Load missing Themes` and toggle on the theme card.
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
-    - `https://saltssaumure.github.io/template-discord-theme/Template.theme.css`
+    - `https://saltssaumure.github.io/elysium-discord-theme/Elysium.theme.css`
 
 ## Customisation
 
@@ -92,17 +92,17 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
+3. Copy and paste lines 15-20 of [`Elysium.theme.css`][.theme.css].
 3. Edit the variable values and save.
 
 ### Vencord
 #### Local
 2. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
-3. Open `Template.theme.css` with your favourite text editor.
+3. Open `Elysium.theme.css` with your favourite text editor.
 4. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
+2. Copy and paste lines 15-20 of [`Elysium.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License

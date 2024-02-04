@@ -1,0 +1,20 @@
+/**
+ * @name Discord Elysium
+ * @author Saltssaumure
+ * @authorLink https://github.com/Saltssaumure
+ * @description INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.
+ * @license GPL-3.0
+ * @version 1.0
+ * @invite uy8nKQVatp
+ * @source https://github.com/Saltssaumure/elysium-discord-theme
+ * @donate https://ko-fi.com/saltssaumure
+*/
+
+@import url("https://saltssaumure.github.io/elysium-discord-theme/elysium.min.css");
+
+/* See https://github.com/Saltssaumure/elysium-discord-theme#customisation for customisation settings. */
+:root {
+    --disco-bg-color: #000;
+    --disco-scanline: block;
+    --disco-flicker: none;
+}

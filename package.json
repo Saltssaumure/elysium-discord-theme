@@ -1,8 +1,8 @@
 {
-  "name": "template-discord-theme",
-  "version": "1.1.1",
-  "description": "A template Discord theme for multiple client mod support.",
-  "repository": "github:Saltssaumure/template-discord-theme",
+  "name": "elysium-discord-theme",
+  "version": "1.0.0",
+  "description": "INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.",
+  "repository": "github:Saltssaumure/elysium-discord-theme",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "GPL-3.0",
   "private": true,
@@ -18,8 +18,8 @@
     "release": "replugged release"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "replugged": "^4.7.4",
-    "salt-bd-scss": "^1.1.0"
+    "prettier": "^3.2.4",
+    "replugged": "^4.7.8",
+    "salt-bd-scss": "^1.2.1"
   }
 }
