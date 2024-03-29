@@ -21,7 +21,18 @@
     --font-primary: "Sina Nova", sans-serif;
 }
 
-.content__4bf10 {
+// Titlebar
+.titleBar__710b0 {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    .wordmark__5b8c9 {
+        display: none;
+    }
+}
+
+.content__76dcf {
     justify-content: space-between;
 }
 
@@ -36,7 +47,7 @@
     right: 0;
     margin-right: $chatRightOffset;
 
-    .scroller__1f96e {
+    .scroller_e412fe {
         padding-left: 16px;
         // Don't scrollbar dead inside
         --scrollbar-auto-thumb: none;
@@ -44,7 +55,7 @@
     }
 
     // Take avatar of last msg and use as speaker portrait
-    .scrollerInner__059a5 > li:last-of-type .avatar__08316 {
+    .scrollerInner__37fee > li:last-of-type .avatar__08316 {
         border-radius: 0;
         position: fixed;
         left: unset;
@@ -59,7 +70,7 @@
     }
 
     // Hide other avatars
-    .scrollerInner__059a5 > li:not(:last-of-type) .avatar__08316 {
+    .scrollerInner__37fee > li:not(:last-of-type) .avatar__08316 {
         display: none;
     }
 }
