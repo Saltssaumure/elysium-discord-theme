@@ -1,7 +1,7 @@
 @use "../../vars" as *;
 
 // Take avatar of last msg and use as speaker portrait
-.scrollerInner__37fee > li:last-of-type .avatar__08316 {
+.scrollerInner__37fee > :is(li, .quotedChatMessage_d0497b):last-of-type .avatar__08316 {
     border-radius: 0;
     position: fixed;
     left: unset;
@@ -15,7 +15,7 @@
 }
 
 // Hide other avatars
-.scrollerInner__37fee > li:not(:last-of-type) .avatar__08316 {
+.scrollerInner__37fee > :is(li, .quotedChatMessage_d0497b):not(:last-of-type) .avatar__08316 {
     display: none;
 }
 
