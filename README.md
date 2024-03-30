@@ -1,8 +1,7 @@
-[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
-[light]:            https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
-[dark]:             https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/elysium1.png
+[screenshot]:       https://saltssaumure.github.io/elysium-discord-theme/preview/preview.avif "Screenshot of Discord Elysium applied to Discord"
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+[css-length]:       https://developer.mozilla.org/en-US/docs/Web/CSS/length
 [discord]:          https://discord.gg/uy8nKQVatp
 
 [BetterDiscord]:    https://betterdiscord.app/
@@ -35,10 +34,6 @@
 ***INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.***
 
 ![Screenshot of Discord Elysium applied to Discord][screenshot]
-
-| Light mode                                                     | Dark mode                                                    |
-| -------------------------------------------------------------- | ------------------------------------------------------------ |
-| ![Screenshot of Elysium light mode applied to Discord][light] | ![Screenshot of Elysium dark mode applied to Discord][dark] |
 
 ## Installation
 
@@ -75,14 +70,15 @@
 
 ## Customisation
 
-| Description                    | Variable name     | Valid values                    | Default value |
-| ------------------------------ | ----------------- | ------------------------------- | ------------- |
-| Background colour              | `--temp-bg-color` | Any [colour][css-color].        | #000          |
-| &#9936; Moving scanline on/off | `--temp-scanline` | `block` (on) or `none` (off).   | `block`       |
-| &#9888; Screen flicker on/off  | `--temp-flicker`  | `flicker` (on) or `none` (off). | `none`        |
-
-- &#9936; This effect is performance-intensive.
-- &#9888; This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy.
+| Description          | Variable name                  | Valid values                              | Default value                                                                   |
+| -------------------- | ------------------------------ | ----------------------------------------- | ------------------------------------------------------------------------------- |
+| User portrait image  | `--disco-portrait`             | Image link encased in `url()`.            | `url("https://saltssaumure.github.io/elysium-discord-theme/img/portrait.avif")` |
+| Background image     | `--disco-background`           | Image link encased in `url()`.            | `url("https://saltssaumure.github.io/elysium-discord-theme/img/revachol.avif")` |
+| Channel list width   | `--disco-channellist-width`    | Any [length][css-length].                 | `360px`                                                                         |
+| Members list width   | `--disco-memberslist-width`    | Any [length][css-length].                 | `240px`                                                                         |
+| Accent colour        | `--disco-accent-color`         | Space-separated [`RGB`][css-color] value. | `0 0 0`                                                                         |
+| Heavy accent opacity | `--disco-accent-opacity-heavy` | Any percentage.                           | `80%`                                                                           |
+| Light accent opacity | `--disco-accent-opacity-light` | Any percentage.                           | `60%`                                                                           |
 
 ### BetterDiscord
 1. Open `Settings` > `BetterDiscord` > `Themes`.
@@ -92,7 +88,7 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-20 of [`Elysium.theme.css`][.theme.css].
+3. Copy and paste lines 15-24 of [`Elysium.theme.css`][.theme.css].
 3. Edit the variable values and save.
 
 ### Vencord
@@ -102,7 +98,7 @@
 4. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-20 of [`Elysium.theme.css`][.theme.css].
+2. Copy and paste lines 15-24 of [`Elysium.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License
