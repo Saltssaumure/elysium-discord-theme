@@ -1,0 +1,57 @@
+@use "../vars" as *;
+
+.panels__58331 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: $userpanelWidth;
+    // background: $bgTint;
+}
+
+.container_debb33 {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+}
+
+// User info
+.avatarWrapper__500a6 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 5px;
+    margin: 5px;
+
+    &,
+    &:hover {
+        background-color: $bgTint;
+        border-radius: 0;
+    }
+
+    // Username and nickname section
+    .nameTag__77ab2 {
+        display: none; // temp
+    }
+
+    // Avatar container
+    .avatar_f8541f {
+        width: 130px !important;
+        height: 200px !important;
+        background: $portraitBg;
+        background-size: cover;
+        padding: $distance;
+        border-radius: 0;
+
+        svg {
+            width: 138px !important;
+            height: 191px !important;
+
+            foreignObject[mask*="url(#"] {
+                mask: none;
+                -webkit-mask: none;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

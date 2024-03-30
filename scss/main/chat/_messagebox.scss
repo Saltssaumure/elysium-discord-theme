@@ -1,0 +1,39 @@
+@use "../../vars" as *;
+
+// Message box
+.form_d8a4a1 {
+    margin-bottom: 80px;
+}
+
+// Move message box buttons to mimic inventory tabs at bottom
+.buttons__7ecff {
+    background: $bgTint;
+    position: fixed;
+    top: unset;
+    bottom: 0;
+    right: 0;
+    width: calc($chatWidth + $chatRightOffset);
+    padding-left: 60px;
+    height: $chatButtonsHeight;
+    gap: 60px;
+
+    $iconSize: 40px !important;
+
+    // GIft, gif, sticker
+    .lottieIcon_c7076c,
+        // Send message
+        .sendIcon_f67abd {
+        width: $iconSize;
+        height: $iconSize;
+    }
+
+    // Emoji picker
+    .spriteContainer__732c7 {
+        --custom-emoji-sprite-size: #{$iconSize};
+    }
+
+    // Line before send message button
+    .separator__666aa::before {
+        display: none;
+    }
+}

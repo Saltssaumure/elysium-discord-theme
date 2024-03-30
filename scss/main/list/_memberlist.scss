@@ -1,0 +1,9 @@
+@use "../../vars" as *;
+
+.container_f79ab4 {
+    position: fixed;
+    left: $userpanelWidth + $channellistWidth + $distance * 2;
+    top: $hslHeight;
+    bottom: 0;
+    background: $bgTintLight;
+}

@@ -1,0 +1,21 @@
+@use "../../vars" as *;
+
+// Take avatar of last msg and use as speaker portrait
+.scrollerInner__37fee > li:last-of-type .avatar__08316 {
+    border-radius: 0;
+    position: fixed;
+    left: unset;
+    right: calc($chatRightOffset + $chatWidth - 40px);
+    top: 20vh;
+    width: 180px;
+    height: 180px;
+    z-index: 10000;
+    background: $portraitBg;
+    background-size: cover;
+    padding: 60px $distance;
+}
+
+// Hide other avatars
+.scrollerInner__37fee > li:not(:last-of-type) .avatar__08316 {
+    display: none;
+}

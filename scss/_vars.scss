@@ -1,0 +1,18 @@
+$chatRightOffset: 6vw; // eyeballed
+$chatWidth: 620px; // measured roughly ingame @1080p
+$chatButtonsHeight: 80px; // eyeballed
+$userpanelWidth: 190px; // measured ingame @1080p
+
+$channellistWidth: 240px; // default Discord
+$hslHeight: var(--server-container); // from HorizontalServerList
+
+$distance: 20px; // unit of distance for padding etc
+
+// Colours
+$bgOpaque: #000;
+$bgTint: transparentize($bgOpaque, 0.2);
+$bgTintLight: transparentize($bgOpaque, 0.5);
+
+// Images
+$portraitBg: url("https://i.imgur.com/UXQqGGr.png");
+$largeBg: url("https://sirus.b-cdn.net/wp-content/uploads/2021/08/Disco-Elysium-4-scaled.jpg");

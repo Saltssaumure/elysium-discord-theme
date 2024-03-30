@@ -1,0 +1,17 @@
+@use "../../vars" as *;
+
+// Outermost layer of chat with header
+.chat__52833 {
+    background: url("https://i.imgur.com/KQB0TEC.png");
+    background-size: cover;
+    max-width: $chatWidth;
+    right: 0;
+    margin-right: $chatRightOffset;
+
+    .scroller_e412fe {
+        padding-left: 16px;
+        // Don't scrollbar dead inside
+        --scrollbar-auto-thumb: none;
+        --scrollbar-auto-track: none;
+    }
+}
