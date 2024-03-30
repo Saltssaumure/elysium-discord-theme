@@ -5,16 +5,18 @@ $userpanelWidth: 160px; // measured ingame @1080p
 
 $channellistWidth: var(--disco-channellist-width); // 240px: default Discord
 $memberlistWidth: var(--disco-memberslist-width); // 240px: default Discord
+$threadWidth: var(--disco-thread-width); //
 $hslHeight: var(--server-container); // from HorizontalServerList
 
 $distance: 20px; // unit of distance for padding etc
 
 // Colours
-$bgOpaque: #000;
-$bgTint: transparentize($bgOpaque, 0.2);
-$bgTintLight: transparentize($bgOpaque, 0.5);
+$bgOpaque: rgb(var(--disco-accent-color));
+$bgTint: rgb(var(--disco-accent-color) / var(--disco-accent-opacity-heavy));
+$bgTintLight: rgb(var(--disco-accent-color) / var(--disco-accent-opacity-light));
 
 // Images
 $portraitBg: url("https://i.imgur.com/UXQqGGr.png") top/cover;
 $largeBg: var(--disco-background) top/auto;
+$chatBg: url("https://i.imgur.com/KQB0TEC.png") top/cover;
 $userPortrait: var(--disco-portrait) center/cover content-box;

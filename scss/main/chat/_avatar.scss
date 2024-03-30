@@ -19,6 +19,12 @@
     display: none;
 }
 
+// Hide reply and thread spines
+.repliedMessage__636d2::before,
+.hasThread__44ae4.hasThread__44ae4::after {
+    display: none;
+}
+
 // Hoists chat above memberlist so avatar appears above memberlist
 .chatContent_f087cb {
     z-index: 1;

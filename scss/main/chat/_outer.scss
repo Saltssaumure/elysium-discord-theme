@@ -1,17 +1,29 @@
 @use "../../vars" as *;
+@use "../../mixins" as *;
 
 // Outermost layer of chat with header
 .chat__52833 {
-    background: url("https://i.imgur.com/KQB0TEC.png");
-    background-size: cover;
+    background: $chatBg;
     max-width: $chatWidth;
     right: 0;
     margin-right: $chatRightOffset;
 
-    .scroller_e412fe {
-        padding-left: 16px;
-        // Don't scrollbar dead inside
-        --scrollbar-auto-thumb: none;
-        --scrollbar-auto-track: none;
+    &.threadSidebarOpen__62c31 {
+        border-radius: 0;
     }
+
+    .scroller_e412fe {
+        @include hideScrollbar;
+    }
+}
+
+// Header
+.container__26baa {
+    padding: 8px 24px;
+}
+
+// Header shadow
+.chat_f8f70f::before,
+.content__01e65::before {
+    display: none;
 }
