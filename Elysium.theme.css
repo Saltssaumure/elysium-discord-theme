@@ -14,7 +14,6 @@
 
 /* See https://github.com/Saltssaumure/elysium-discord-theme#customisation for customisation settings. */
 :root {
-    --disco-bg-color: #000;
-    --disco-scanline: block;
-    --disco-flicker: none;
+    --disco-portrait: url("https://static.wikia.nocookie.net/discoelysium_gamepedia_en/images/8/83/Portrait_you.png/revision/latest?cb=20191028100206");
+    --disco-background: url("https://sirus.b-cdn.net/wp-content/uploads/2021/08/Disco-Elysium-4-scaled.jpg");
 }

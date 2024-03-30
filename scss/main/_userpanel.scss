@@ -47,7 +47,7 @@
         width: 130px !important;
         height: 185px !important;
         // It's harry!
-        background: $defaultPortrait, $portraitBg;
+        background: $userPortrait, $portraitBg;
         padding: 5px;
         border-radius: 0;
 
@@ -64,7 +64,6 @@
                 height: 40px;
             }
 
-            // Display real avatar?
             .avatarStack__789b4 {
                 display: none;
             }

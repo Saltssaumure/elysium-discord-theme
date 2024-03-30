@@ -3,6 +3,7 @@
 @forward "./part";
 @forward "./plugin";
 
+// Discord vars
 :root {
     --background-primary: none;
     --background-secondary: none;
@@ -10,6 +11,12 @@
     --background-tertiary: none;
     --channeltextarea-background: none;
     --custom-message-margin-left-content-cozy: 40px;
+}
+
+// Theme vars
+:root {
+    --disco-portrait: url("https://static.wikia.nocookie.net/discoelysium_gamepedia_en/images/8/83/Portrait_you.png/revision/latest?cb=20191028100206");
+    --disco-background: url("https://sirus.b-cdn.net/wp-content/uploads/2021/08/Disco-Elysium-4-scaled.jpg");
 }
 
 //?
