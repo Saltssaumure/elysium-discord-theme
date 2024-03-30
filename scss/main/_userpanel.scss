@@ -36,21 +36,31 @@
     // Avatar container
     .avatar_f8541f {
         width: 130px !important;
-        height: 200px !important;
+        height: 185px !important;
         background: $portraitBg;
-        background-size: cover;
-        padding: $distance;
+        padding: 5px;
         border-radius: 0;
 
-        svg {
-            width: 138px !important;
-            height: 191px !important;
+        // Outermost svg
+        .svg_a6bf1c {
+            width: inherit !important;
+            height: inherit !important;
 
+            // Unround avatar
             foreignObject[mask*="url(#"] {
                 mask: none;
                 -webkit-mask: none;
                 width: 40px;
                 height: 40px;
+            }
+
+            // Status indicator
+            svg {
+                overflow: visible;
+                rect {
+                    x: -14;
+                    y: 20;
+                }
             }
         }
     }
