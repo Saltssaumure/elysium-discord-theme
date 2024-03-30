@@ -21,6 +21,7 @@
     padding-left: 0;
     padding: 5px;
     margin: 5px;
+    position: relative;
 
     &,
     &:hover {
@@ -30,14 +31,23 @@
 
     // Username and nickname section
     .nameTag__77ab2 {
-        display: none; // temp
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        max-width: 90px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    &:hover .nameTag__77ab2 {
+        opacity: 1;
     }
 
     // Avatar container
     .avatar_f8541f {
         width: 130px !important;
         height: 185px !important;
-        background: $portraitBg;
+        // It's harry!
+        background: $defaultPortrait, $portraitBg;
         padding: 5px;
         border-radius: 0;
 
@@ -54,14 +64,31 @@
                 height: 40px;
             }
 
+            // Display real avatar?
+            .avatarStack__789b4 {
+                display: none;
+            }
+
             // Status indicator
             svg {
                 overflow: visible;
-                rect {
+                opacity: 0.8;
+                rect:first-of-type {
                     x: -14;
                     y: 20;
                 }
             }
         }
     }
+}
+
+// Controls
+.avatarWrapper__500a6 + .horizontal__4848b {
+    background: $bgTint;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+
+    --status-danger: rgb(239, 100, 0);
 }
