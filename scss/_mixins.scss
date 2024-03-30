@@ -1,0 +1,5 @@
+@mixin hideScrollbar {
+    padding-left: 16px;
+    --scrollbar-auto-thumb: none;
+    --scrollbar-auto-track: none;
+}

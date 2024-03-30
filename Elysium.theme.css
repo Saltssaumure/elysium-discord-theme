@@ -14,7 +14,11 @@
 
 /* See https://github.com/Saltssaumure/elysium-discord-theme#customisation for customisation settings. */
 :root {
-    --disco-bg-color: #000;
-    --disco-scanline: block;
-    --disco-flicker: none;
+    --disco-portrait:   url("https://saltssaumure.github.io/elysium-discord-theme/img/portrait.avif");
+    --disco-background: url("https://saltssaumure.github.io/elysium-discord-theme/img/revachol.avif");
+    --disco-channellist-width: 360px;
+    --disco-memberslist-width: 240px;
+    --disco-accent-color: 0 0 0;
+    --disco-accent-opacity-heavy: 80%;
+    --disco-accent-opacity-light: 60%;
 }

@@ -1,0 +1,18 @@
+@use "../../vars" as *;
+
+.container_f79ab4 {
+    position: fixed;
+    left: calc($userpanelWidth + $channellistWidth + $distance * 2);
+    top: $hslHeight;
+    bottom: 0;
+    background: $bgTintLight;
+    min-width: $memberlistWidth;
+}
+
+.members__573eb {
+    width: $memberlistWidth;
+}
+
+.member_aa4760 {
+    max-width: calc($memberlistWidth - 16px);
+}

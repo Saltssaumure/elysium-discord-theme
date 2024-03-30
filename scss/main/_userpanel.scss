@@ -1,0 +1,93 @@
+@use "../vars" as *;
+
+.panels__58331 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: $userpanelWidth;
+    // background: $bgTint;
+}
+
+.container_debb33 {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+}
+
+// User info
+.avatarWrapper__500a6 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+
+    &,
+    &:hover {
+        background-color: $bgTint;
+        border-radius: 0;
+    }
+
+    // Username and nickname section
+    .nameTag__77ab2 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        max-width: 90px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    &:hover .nameTag__77ab2 {
+        opacity: 1;
+    }
+
+    // Avatar container
+    .avatar_f8541f {
+        width: 130px !important;
+        height: 185px !important;
+        // It's harry!
+        background: $userPortrait, $portraitBg;
+        padding: 5px;
+        border-radius: 0;
+
+        // Outermost svg
+        .svg_a6bf1c {
+            width: inherit !important;
+            height: inherit !important;
+
+            // Unround avatar
+            foreignObject[mask*="url(#"] {
+                mask: none;
+                -webkit-mask: none;
+                width: 40px;
+                height: 40px;
+            }
+
+            .avatarStack__789b4 {
+                display: none;
+            }
+
+            // Status indicator
+            svg {
+                overflow: visible;
+                opacity: 0.8;
+                rect:first-of-type {
+                    x: -14;
+                    y: 20;
+                }
+            }
+        }
+    }
+}
+
+// Controls
+.avatarWrapper__500a6 + .horizontal__4848b {
+    background: $bgTint;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+
+    --status-danger: rgb(239, 100, 0);
+}

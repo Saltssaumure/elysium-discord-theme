@@ -1,83 +1,35 @@
-// Sina Nova font
-@font-face {
-    font-family: "Sina Nova";
-    src: url("https://saltssaumure.github.io/elysium-discord-theme/assets/fonts/SinaNovaReg.ttf");
-}
+@forward "./main";
+@forward "./mod";
+@forward "./part";
+@forward "./plugin";
 
-// bg
-.bg__12180 {
-    background: url("https://sirus.b-cdn.net/wp-content/uploads/2021/08/Disco-Elysium-4-scaled.jpg");
-}
-
+// Discord vars
 :root {
     --background-primary: none;
     --background-secondary: none;
     --background-secondary-alt: none;
     --background-tertiary: none;
     --channeltextarea-background: none;
-
     --custom-message-margin-left-content-cozy: 40px;
-
-    --font-primary: "Sina Nova", sans-serif;
 }
 
-// Titlebar
-.titleBar__710b0 {
-    position: absolute;
-    left: 0;
-    right: 0;
-
-    .wordmark__5b8c9 {
-        display: none;
-    }
+// Theme vars
+:root {
+    --disco-portrait: url("https://saltssaumure.github.io/elysium-discord-theme/img/portrait.avif");
+    --disco-background: url("https://saltssaumure.github.io/elysium-discord-theme/img/revachol.avif");
+    --disco-channellist-width: 360px;
+    --disco-memberslist-width: 240px;
+    --disco-accent-color: 0 0 0;
+    --disco-accent-opacity-heavy: 80%;
+    --disco-accent-opacity-light: 60%;
 }
 
+// ?
 .content__76dcf {
     justify-content: space-between;
-}
-
-// Outermost layer of chat with header
-.chat__52833 {
-    $chatRightOffset: 6vw; // eyeballed
-    $chatWidth: 620px; // measured roughly ingame @1080p
-
-    background: url("https://i.imgur.com/KQB0TEC.png");
-    background-size: cover;
-    max-width: $chatWidth;
-    right: 0;
-    margin-right: $chatRightOffset;
-
-    .scroller_e412fe {
-        padding-left: 16px;
-        // Don't scrollbar dead inside
-        --scrollbar-auto-thumb: none;
-        --scrollbar-auto-track: none;
-    }
-
-    // Take avatar of last msg and use as speaker portrait
-    .scrollerInner__37fee > li:last-of-type .avatar__08316 {
-        border-radius: 0;
-        position: fixed;
-        left: unset;
-        right: calc($chatRightOffset + $chatWidth - 40px);
-        top: 20vh;
-        width: 180px;
-        height: 180px;
-        z-index: 10000;
-        background: url("https://i.imgur.com/UXQqGGr.png");
-        background-size: cover;
-        padding: 60px 20px;
-    }
-
-    // Hide other avatars
-    .scrollerInner__37fee > li:not(:last-of-type) .avatar__08316 {
-        display: none;
-    }
 }
 
 // Remove from flex
 .erd_scroll_detection_container {
     position: absolute;
 }
-
-// Rewrite this

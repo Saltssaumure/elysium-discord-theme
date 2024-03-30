@@ -1,0 +1,9 @@
+// Sina Nova font
+@font-face {
+    font-family: "Sina Nova";
+    src: url("https://saltssaumure.github.io/elysium-discord-theme/assets/fonts/SinaNovaReg.ttf");
+}
+
+:root {
+    --font-primary: "Sina Nova", sans-serif;
+}
