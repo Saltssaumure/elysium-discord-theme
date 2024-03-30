@@ -9,7 +9,7 @@
     top: 20vh;
     width: 180px;
     height: 180px;
-    z-index: 10000;
+    z-index: 1;
     background: $portraitBg;
     padding: 60px $distance;
 }
@@ -17,4 +17,9 @@
 // Hide other avatars
 .scrollerInner__37fee > li:not(:last-of-type) .avatar__08316 {
     display: none;
+}
+
+// Hoists chat above memberlist so avatar appears above memberlist
+.chatContent_f087cb {
+    z-index: 1;
 }
