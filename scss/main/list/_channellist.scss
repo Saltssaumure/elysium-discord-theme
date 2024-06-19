@@ -1,6 +1,6 @@
 @use "../../vars" as *;
 
-.sidebar_e031be {
+.sidebar_a4d4d9 {
     background: $bgTintLight;
     position: relative;
     left: $userpanelWidth + $distance;
@@ -8,23 +8,23 @@
 }
 
 // Server channels list
-.container__7e23c {
+.container_ee69e0 {
     $banner-height: calc(($channellistWidth - (2 * 10px) - (2 * 0.5vh)) / 240 * 135);
 
     // Banner
-    .animatedContainer__0e828 {
+    .animatedContainer_fd6364 {
         height: $banner-height;
     }
     // Prevent banner overlapping outer
-    .animatedContainer__0e828,
-    .bannerImage_c73a57 {
+    .animatedContainer_fd6364,
+    .bannerImage_fd6364 {
         transform: none !important;
     }
-    .bannerImage_c73a57,
-    .bannerImg_fe5c1b {
+    .bannerImage_fd6364,
+    .bannerImg_fd6364 {
         width: inherit;
     }
-    .bannerImg_fe5c1b {
+    .bannerImg_fd6364 {
         height: unset;
     }
     div[style="height: 12px;"] {
