@@ -102,8 +102,17 @@
 3. Edit the variable values.
 
 ## License
-[GNU General Public License v3.0][license]
-- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
+Copyright (c) 2024 Saltssaumure
+
+This theme is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This theme is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU Affero General Public License][license] for more details.
+
+## Credits
+### Fonts
+[sinanova]:   https://www.fontsquirrel.com/fonts/sina-nova
+
+- [Sina Nova][sinanova] by [Hoftype](https://www.hoftype.com) (Dieter Hofrichter) - Fontspring Webfont End User License Agreement 1.7.0
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.

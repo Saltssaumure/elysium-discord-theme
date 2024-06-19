@@ -4,7 +4,7 @@
   "description": "INTERFACING [Challenging: Success] - This tape contains a Disco Elysium styled Discord theme.",
   "repository": "github:Saltssaumure/elysium-discord-theme",
   "author": "Saltssaumure <themes@saltssaumure.net>",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0-or-later",
   "private": true,
   "type": "module",
   "scripts": {
