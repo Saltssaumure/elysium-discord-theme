@@ -1,12 +1,12 @@
 @use "../../vars" as *;
 
 // Message box
-.form_d8a4a1:has(.buttons__7ecff) {
+.form_a7d72e:has(.buttons_d0696b) {
     margin-bottom: 80px;
 }
 
 // Move message box buttons to mimic inventory tabs at bottom
-.buttons__7ecff {
+.buttons_d0696b {
     background: $bgTint;
     position: fixed;
     top: unset;
@@ -20,20 +20,20 @@
     $iconSize: 40px !important;
 
     // GIft, gif, sticker
-    .lottieIcon_c7076c,
+    .lottieIcon_f73ef7,
         // Send message
-        .sendIcon_f67abd {
+        .sendIcon_a06035 {
         width: $iconSize;
         height: $iconSize;
     }
 
     // Emoji picker
-    .spriteContainer__732c7 {
+    .spriteContainer_af14ca {
         --custom-emoji-sprite-size: #{$iconSize};
     }
 
     // Line before send message button
-    .separator__666aa::before {
+    .separator_a06035::before {
         display: none;
     }
 }

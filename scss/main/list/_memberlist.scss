@@ -1,6 +1,6 @@
 @use "../../vars" as *;
 
-.container_f79ab4 {
+.container_cbd271 {
     position: fixed;
     left: calc($userpanelWidth + $channellistWidth + $distance * 2);
     top: $hslHeight;
@@ -9,10 +9,10 @@
     min-width: $memberlistWidth;
 }
 
-.members__573eb {
+.members_cbd271 {
     width: $memberlistWidth;
 }
 
-.member_aa4760 {
+.member_a31c43 {
     max-width: calc($memberlistWidth - 16px);
 }

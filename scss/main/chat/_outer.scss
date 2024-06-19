@@ -2,28 +2,28 @@
 @use "../../mixins" as *;
 
 // Outermost layer of chat with header
-.chat__52833 {
+.chat_a7d72e {
     background: $chatBg;
     max-width: $chatWidth;
     right: 0;
     margin-right: $chatRightOffset;
 
-    &.threadSidebarOpen__62c31 {
+    &.threadSidebarOpen_a7d72e {
         border-radius: 0;
     }
 
-    .scroller_e412fe {
+    .scroller_e2e187 {
         @include hideScrollbar;
     }
 }
 
 // Header
-.container__26baa {
+.container_e44302 {
     padding: 8px 24px;
 }
 
 // Header shadow
-.chat_f8f70f::before,
-.content__01e65::before {
+.chat_fe669e::before,
+.content_a7d72e::before {
     display: none;
 }
